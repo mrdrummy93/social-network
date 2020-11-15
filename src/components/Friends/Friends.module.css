@@ -1,0 +1,6 @@
+.item {
+    display: inline-grid;
+    background-color: aqua;
+    margin-top: -100px;
+    padding-bottom: 30px;
+}
