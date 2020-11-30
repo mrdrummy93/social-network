@@ -3,11 +3,10 @@ import Dialogs from "./Dialogs";
 import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/Dialogs-reducer";
 import StoreContext from "../../StoreContext";
 
-const DialogsContainer = (props) => {
+const DialogsContainer = () => {
 
     return <StoreContext.Consumer>
-        {
-        (store) => {
+        { store => {
 
             let onSendMessageClick = () => {
                 store.dispatch(sendMessageCreator());
