@@ -8,7 +8,7 @@
 }
 
 .item a.activeLink{
-    color: gold;
+    color: red;
 }
 
 .active{
