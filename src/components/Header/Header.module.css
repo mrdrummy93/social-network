@@ -6,3 +6,20 @@
 .header img {
     height: 60px;
 }
+
+.loginBlock {
+    float: right;
+    margin: 15px;
+}
+
+.loginBlock a {
+    color: white;
+}
+
+.mailBlock {
+    float: right;
+}
+
+.mailBlock a{
+    color: white;
+}
